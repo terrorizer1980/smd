@@ -3,7 +3,7 @@ spotipy==2.4.4
 lyricsgenius==1.4.0
 lxml==4.3.3
 mutagen==1.41.0
-requests==2.21.0
+requests==2.32.0
 moviepy==0.2.3.5
 imageio==2.3.0
 humanize==0.5.1
@@ -13,3 +13,5 @@ Flask==0.12.2
 pytube==9.5.1
 PyQt5==5.13.0
 beautifulsoup4==4.8.0
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
