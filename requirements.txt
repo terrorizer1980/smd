@@ -1,5 +1,5 @@
 notify2==0.3.1
-spotipy==2.4.4
+spotipy==2.25.2
 lyricsgenius==1.4.0
 lxml==4.3.3
 mutagen==1.41.0
@@ -13,3 +13,4 @@ Flask==0.12.2
 pytube==9.5.1
 PyQt5==5.13.0
 beautifulsoup4==4.8.0
+werkzeug>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
